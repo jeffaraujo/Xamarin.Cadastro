@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cadastro.ClientePage">
+  <ContentPage.Content>
+    <StackLayout Padding="20" Spacing="20" BackgroundColor="Black">
+      <Entry x:Name="NomeCliente" Placeholder="Nome" BackgroundColor="White" TextColor="Black"></Entry>
+    <Entry x:Name="EmailCliente" Placeholder="Email" Keyboard="Email" BackgroundColor="White" TextColor="Black"></Entry>
+    <Button x:Name="Salvar" Text="Salvar" Clicked="Salvar_OnClicked"></Button>
+    <ListView x:Name="ListaCliente" BackgroundColor="White"></ListView>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
